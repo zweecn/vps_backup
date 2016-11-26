@@ -1,0 +1,2 @@
+0 0 25 * * /root/encrypt_ssl/renew_cert.sh 2>> /var/log/acme_tiny.log
+0 0 *  * 1 /root/vps_backup/backup.sh 2>> /var/log/backup.log

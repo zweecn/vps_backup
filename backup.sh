@@ -36,5 +36,6 @@ fi
 
 git add .
 git commit -m 'auto backup'
+git pull
 git push origin master
 

@@ -1,3 +1,9 @@
+主要是这里的一键安装脚本：https://teddysun.com/448.html
+它说centos6通过编译安装，centos7通过yum安装，其实都是yum安装比较好。
+即是说安装 libreswan
+
+-----------------------------------------------------------------
+
 如果提示lib event xxx什么的话，先remove掉老的libevent，再装新的libevent2
 
 yum remove libevent-devel-1.4.13-4.el6.x86_64

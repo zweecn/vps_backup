@@ -34,6 +34,13 @@ if [ $? -ne 0 ]; then
     echo backup mysql failed!
 fi
 
+echo backup /etc/sysconfig/iptables
+cp /etc/sysconfig/iptables /root/vps_backup/l2tp/
+echo backup /etc/ipsec.d/ipsec.conf  /etc/ipsec.d/ipsec.secrets
+cp /etc/ipsec.d/ipsec.* /root/vps_backup/l2tp/
+echo backup /etc/xl2tpd/l2tp-secrets  /etc/xl2tpd/xl2tpd.conf
+cp /etc/xl2tpd/* /root/vps_backup/l2tp/
+
 git add .
 git commit -m 'auto backup'
 git pull

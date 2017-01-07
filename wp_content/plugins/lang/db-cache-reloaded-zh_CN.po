@@ -1,0 +1,184 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Daniel Fruyski
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: db-cache-reload-cn-0.1\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/db-cache-reloaded\n"
+"POT-Creation-Date: 2009-12-06 15:40+0000\n"
+"PO-Revision-Date: 2011-03-09 17:15+0800\n"
+"Last-Translator: ROBIN <robin@gmail.com>\n"
+"Language-Team: Amos Lee <iwillhappy1314@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Chinese\n"
+"X-Poedit-Country: CHINA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: db-cache-reloaded.php:157
+msgid "<b>DB Cache Reloaded Error:</b> <code>wpdb</code> class is redefined, plugin cannot work!"
+msgstr "<b>数据库缓存错误信息：</b> <code>wpdb</code> 类已被重定义，插件不能工作！"
+
+#: db-cache-reloaded.php:160
+#, php-format
+msgid "Previous definition is at %s."
+msgstr "上面的定义在%s。"
+
+#: db-cache-reloaded.php:169
+#, php-format
+msgid "<b>DB Cache Reloaded Info:</b> caching is not enabled. Please go to the <a href=\"%s\">Options Page</a> to enable it."
+msgstr "<b>数据库缓存信息：</b> 插件已禁用，请到 <a href=\"%s\"> 选项页 </a> 启用。"
+
+#: db-cache-reloaded.php:173
+#, php-format
+msgid "<b>DB Cache Reloaded Error:</b> DB Module (<code>wpdb</code> class) is not loaded. Please open the <a href=\"%1$s\">Options Page</a>, disable caching (remember to save options) and enable it again. If this will not help, please check <a href=\"%2$s\">FAQ</a> how to do manual upgrade."
+msgstr "<b>数据库缓存错误信息：</b> 数据库模块 (<code>wpdb</code> class) 没有加载，请打开 <a href=\"%1$s\"> 选项页 </a>，禁用缓存 (不要忘了保存) 然后重新启用。如果无效，请查看<a href=\"%2$s\">FAQ</a> 以手动升级。"
+
+#: db-cache-reloaded.php:186
+#, php-format
+msgid "<b>DB Cache Reloaded Error:</b> DB Module is not up to date (detected version %1$s instead of %2$s). In order to fix this, please open the <a href=\"%3$s\">Options Page</a>, disable caching (remember to save options) and enable it again."
+msgstr "<b>数据库缓存错误信息：</b> 数据库模块没有升级 (检测到 %1$s 而不是 %2$s)，要修复这个错误，请打开 <a href=\"%3$s\">选项页</a>，禁用缓存 (不要忘了保存) 然后重新启用。"
+
+#: db-cache-reloaded.php:251
+msgid "Caching activated."
+msgstr "缓存已启用。"
+
+#: db-cache-reloaded.php:255
+msgid "Caching can't be activated. Please <a href=\"http://codex.wordpress.org/Changing_File_Permissions\" target=\"blank\">chmod 755</a> <u>wp-content</u> folder"
+msgstr "设置不能保存， 请 <a href=\"http://codex.wordpress.org/Changing_File_Permissions\" target=\"blank\">chmod 755</a> 文件 <u>config.ini</u>。"
+
+#: db-cache-reloaded.php:272
+msgid "Caching deactivated. Cache files deleted."
+msgstr "插件已禁用，缓存已删除。"
+
+#: db-cache-reloaded.php:330
+msgid "<!-- Generated in {timer} seconds. Made {queries} queries to database and {cached} cached queries. Memory used - {memory} -->"
+msgstr "<!-- Generated in {timer} seconds. Made {queries} queries to database and {cached} cached queries. Memory used - {memory} -->."
+
+#: db-cache-reloaded.php:352
+msgid "Cache files deleted."
+msgstr "缓存已删除。"
+
+#: db-cache-reloaded.php:360
+msgid "Expired cache files deleted."
+msgstr "过期缓存已删除。"
+
+#: db-cache-reloaded.php:399
+msgid "Settings saved."
+msgstr "配置已保存。"
+
+#: db-cache-reloaded.php:403
+msgid "Settings can't be saved. Please <a href=\"http://codex.wordpress.org/Changing_File_Permissions\" target=\"blank\">chmod 755</a> file <u>config.ini</u>"
+msgstr "设置不能保存，请 <a href=\"http://codex.wordpress.org/Changing_File_Permissions\" target=\"blank\">chmod 755</a> 文件 <u>config.ini</u>"
+
+#: db-cache-reloaded.php:411
+msgid "DB Cache Reloaded - Options"
+msgstr "数据库缓存-选项"
+
+#: db-cache-reloaded.php:413
+msgid "Configuration"
+msgstr "配置"
+
+#: db-cache-reloaded.php:416
+msgid "Enable"
+msgstr "启用"
+
+#: db-cache-reloaded.php:419
+msgid "Expire a cached query after"
+msgstr "缓存过期时间"
+
+#: db-cache-reloaded.php:420
+msgid "minutes. <em>(Expired files are deleted automatically)</em>"
+msgstr "分钟 <em>(自动删除过期的缓存文件)</em>"
+
+#: db-cache-reloaded.php:424
+msgid "Additional options"
+msgstr "附加选项"
+
+#: db-cache-reloaded.php:427
+msgid "Cache filter"
+msgstr "缓存过滤"
+
+#: db-cache-reloaded.php:428
+msgid "Do not cache queries that contains this input contents. Divide different filters with '|' (vertical line, e.g. '_posts|_postmeta')"
+msgstr "不缓存含有以上标签的内容，标签之间用 '|'分开， (如：'_posts|_postmeta')"
+
+#: db-cache-reloaded.php:431
+msgid "Load stats template"
+msgstr "加载状态模板"
+
+#: db-cache-reloaded.php:432
+msgid "It shows resources usage statistics in your template footer. To disable view just leave this field empty.<br/>{timer} - generation time, {queries} - count of queries to DB, {cached} - cached queries, {memory} - memory"
+msgstr "在页面底部显示统计信息，可清空以上内容禁用此功能.<br/>{timer} - 生成时间，{queries} - 数据库查询次数，{cached} - 已缓存的查询, {memory} - 内存使用"
+
+#: db-cache-reloaded.php:436
+msgid "Advanced"
+msgstr "高级"
+
+#: db-cache-reloaded.php:440
+msgid "Wrapper Mode uses different method to load DB Module. It is less efficient (at least one query is not cached; some plugins may increase this number) and a bit slower. It allows to use DB Cache Reloaded along with incompatible plugins, which tries to load its own DB Module. You can try it if your cached query count is zero or -1."
+msgstr "使用不同的方式来缓存数据库。此模式可以最大程度兼容某些需加载数据库模块的插件，当你的缓存数量为\"0\"或\"-1时，你可以试试这种模式。这种模式效率比较低下 (至少有一次查询没有被缓存，一些插件可能会增加这个数量)，而且有一点慢。"
+
+#: db-cache-reloaded.php:443
+#, php-format
+msgid "Wrapper Mode requires at least PHP 5, and you are using PHP %s now. Please read the <a href=\"http://codex.wordpress.org/Switching_to_PHP5\">Switching to PHP5</a> article for information how to switch to PHP 5."
+msgstr "封装模式至少需要PHP 5，你当前正在使用PHP %s，P请查看 <a href=\"http://codex.wordpress.org/Switching_to_PHP5\">Switching to PHP5</a> 以升级到PHP 5。"
+
+#: db-cache-reloaded.php:449
+msgid "Wrapper Mode is <strong>Enabled</strong>. In order to disable it, please disable cache first."
+msgstr "封装模式已 <strong>启用</strong>。要禁用它，请先禁用缓存。"
+
+#: db-cache-reloaded.php:451
+msgid "Wrapper Mode is <strong>Disabled</strong>. In order to enable it, please disable cache first."
+msgstr "封装模式已 <strong>禁用</strong>。要启用它，请先禁用缓存。"
+
+#: db-cache-reloaded.php:455
+msgid "Enable Wrapper Mode"
+msgstr "启用封装模式"
+
+#: db-cache-reloaded.php:461
+msgid "Save"
+msgstr "保存"
+
+#: db-cache-reloaded.php:462
+msgid "Clear the cache"
+msgstr "清除缓存"
+
+#: db-cache-reloaded.php:463
+msgid "Clear the expired cache"
+msgstr "清除过期缓存"
+
+#: db-module-wrapper.php:265
+#: db-module.php:1383
+#, php-format
+msgid "<b>DB Cache Reloaded Error:</b> cannot include <code>db-functions.php</code> file. Please either reinstall plugin or remove <code>%s</code> file."
+msgstr "<b>数据库缓存错误：</b> 不能包含 <code>db-functions.php</code> 文件，请重装插件或删除 <code>%s</code> 文件。"
+
+#: db-module.php:1302
+#, php-format
+msgid "<strong>ERROR</strong>: WordPress %s requires MySQL 4.0.0 or higher"
+msgstr "<strong>错误</strong>：WordPress %s 需要 MySQL 4.0.0 或更高版本。"
+
+#. Plugin Name of an extension
+msgid "DB Cache Reloaded"
+msgstr "数据缓存"
+
+#. Plugin URI of an extension
+msgid "http://www.poradnik-webmastera.com/projekty/db_cache_reloaded/"
+msgstr "http://www.poradnik-webmastera.com/projekty/db_cache_reloaded"
+
+#. Description of an extension
+msgid "The fastest cache engine for WordPress, that produces cache of database queries with easy configuration. (Disable and enable caching after update)"
+msgstr "WordPress最快的缓存插件，减少数据库查询，配置简单。"
+
+#. Author of an extension
+msgid "Daniel Fruyski"
+msgstr "wopus"
+
+#. Author URI of an extension
+msgid "http://www.poradnik-webmastera.com/"
+msgstr "http://www.wopus.org/"
+

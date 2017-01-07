@@ -8,11 +8,12 @@ if [ ! -d /var/www/challenges ]; then
     mkdir -p /var/www/challenges/
 fi
 
-if [ ! -d wp_themes ]; then
-    mkdir wp_themes
+if [ ! -d wp_content]; then
+    mkdir wp_content
 fi
-rm -rf ./wp_themes/*
-cp -rf /home/wwwroot/favorbook.com/wp-content/themes/* ./wp_themes/
+rm -rf ./wp_content/*
+cp -rf /home/wwwroot/favorbook.com/wp-content/* ./wp_content/
+rm -rf /root/vps_backup/wp_content/cache
 
 if [ ! -d nginx_vhost ]; then
     mkdir nginx_vhost

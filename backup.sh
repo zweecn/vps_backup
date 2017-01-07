@@ -8,7 +8,7 @@ if [ ! -d /var/www/challenges ]; then
     mkdir -p /var/www/challenges/
 fi
 
-if [ ! -d wp_content]; then
+if [ ! -d wp_content ]; then
     mkdir wp_content
 fi
 rm -rf ./wp_content/*
